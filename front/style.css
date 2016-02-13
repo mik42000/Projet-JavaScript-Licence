@@ -1,0 +1,80 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	font-size: 20px;
+	width: 1200px;
+	margin: auto;
+    margin-top: 50px;
+}
+
+#tabEpisodes thead tr td {
+	font-weight: bold;
+	border-bottom: 1px solid grey;
+}
+
+#content, #ensemble-form {
+	display: inline-block;
+	vertical-align: top;
+}
+
+table td {
+	width: 200px;
+	padding: 4px 0px 4px 4px;
+}
+
+#bouton {
+	font-size: 15px;
+	color: blue;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+#formulaire label{
+	width: 80px;
+    display: inline-block;
+}
+
+#formulaire input{
+	margin-left: 5px;
+	margin-top: 15px;
+    height: 25px;
+}
+
+div#ensemble-form {
+    margin-left: 20px;
+}
+
+div#formulaire {
+    text-align: center;
+}
+
+div#formulaire-button {
+	margin-top: 20px;
+    text-align: center;
+}
+
+table#tabEpisodes {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+#listeEpisodes tr:nth-child(2n) {
+    background: #E8E8E8;
+}
+
+@media screen and (max-width: 800px){
+	body{
+		width: 100%;
+	    margin-top: 5px;
+	}
+
+	#content, #ensemble-form {
+		display: block;
+	}
+	
+	#ensemble-form{
+		margin-top: 40px;
+	}
+}
